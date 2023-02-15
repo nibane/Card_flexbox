@@ -9,6 +9,7 @@
 
 #container{
     display: flex;
+    flex-wrap: wrap;
     min-height: 100vh;
     background: rgb(68, 117, 136, 0.539);
     justify-content: center;
@@ -22,11 +23,19 @@
     border-radius: 10px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
     overflow: hidden;
+    
 }
 
 .card:hover .coeur{
     left: 0;
     transition: 0.5s;
+    opacity: 1;
+}
+
+.card:hover .card-header img{
+    transform: scale(1.1);
+    overflow: hidden;
+    filter: grayscale(0);
 }
 
 .card:hover{
@@ -49,9 +58,7 @@
     border-radius: 10px 10px 0 0;
 }
 
-.card-header img:hover{
-    filter: grayscale(0);
-}
+
 
 .card-text{
     padding: 30px;
@@ -79,5 +86,10 @@
     position: absolute;
     top: 0;
     left: -50px;
+    opacity: 0;
+    transition: 1s;
+}
 
+.coeur a{
+    color: #fff;
 }

@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 *{
     margin: 0;
@@ -20,6 +20,7 @@
     background: #fff;
     width: 300px;
     border-radius: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
 }
 
 .card-header{
@@ -45,4 +46,11 @@
 .card-text h1{
     font-size: 25px;
     margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.card-text p{
+    font-size: 14px;
+    color: rgb(147,147,147);
+    font-weight: 300;
 }

@@ -1,2 +1,8 @@
 overflow: hidden;
 permet de masquer ce qui depasse d'un cadre
+transform: https://developer.mozilla.org/fr/docs/Web/CSS/transform
+
+cdn fontawesome a lié  pour avoir accés a fontawesome
+position absolute est relative
+
+objectif-fit: cover    https://developer.mozilla.org/fr/docs/Web/CSS/object-fit

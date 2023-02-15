@@ -11,6 +11,9 @@
     display: flex;
     min-height: 100vh;
     background: rgb(68, 117, 136, 0.539);
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 .card{
@@ -29,8 +32,17 @@
     object-fit: cover;
     filter: grayscale(1);
     transition: 0.5s;
+    border-radius: 10px 10px 0 0;
 }
 
 .card-header img:hover{
     filter: grayscale(0);
+}
+
+.card-text{
+    padding: 30px;
+}
+.card-text h1{
+    font-size: 25px;
+    margin-bottom: 10px;
 }

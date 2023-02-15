@@ -1,0 +1,2 @@
+overflow: hidden;
+permet de masquer ce qui depasse d'un cadre
